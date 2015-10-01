@@ -19,7 +19,7 @@ function IScroll (el, options) {
 		bounceEasing: '',
 
 		preventDefault: true,
-		preventDefaultException: { tagName: /^(INPUT|TEXTAREA|BUTTON|SELECT)$/ },
+		preventDefaultException: { tagName: /^(VIDEO|INPUT|TEXTAREA|BUTTON|SELECT)$/ },
 
 		HWCompositing: true,
 		useTransition: true,
